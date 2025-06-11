@@ -351,11 +351,18 @@ footer{
 
 /* Ajustes para dispositivos menores */
 @media screen and (max-width: 768px) {
-    .header {
+       .header {
         flex-direction: column;
         align-items: center;
-        position: relative;
+        position: static;
+        display: flex;
     }
+}
+.section-mae img {
+    max-width: 329px;
+    border-radius: 10px;
+    box-shadow: 4px 7px 20px 8px #2f2f2f;
+}
    .header img {
     padding: 2px;
     width: 100px;
