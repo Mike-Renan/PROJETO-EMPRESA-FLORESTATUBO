@@ -1,0 +1,371 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Ancizar Serif", serif;
+}
+body {
+   height: 100vh;
+   width: 100vw;
+}
+
+.header{
+
+   display: flex;
+   align-items: center;
+   gap: 30px;
+   margin: 0px;
+   background: #2A7B9B;
+   background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(83, 186, 237, 1) 100%);
+       position: fixed;
+    width: 100%
+
+;
+}
+
+.header a{
+   color: rgb(3, 3, 3);
+   font-size: 23px;
+   cursor: pointer;
+   gap: 10px;
+  padding: 10px;
+  font-size: bold;
+  text-decoration: none;
+}
+.phone-48{
+   width: 10px;
+}
+.header img {
+    padding: 2px;
+    width: 100px;   
+}
+
+.first-view{
+   color: white;
+   text-align: justify;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+  background-color: #056b9b;
+  padding: 50px;
+
+}
+.first-view p{
+   color: white;
+   max-width: 40%;
+
+   
+
+}
+
+.logo-begin{
+  width: 100%;
+  height: 40%;
+  padding:0;
+  margin-top: 83px;
+}
+
+.future{
+   display: flex;
+   align-items: center;
+   padding: 10px;
+   font-size: 30px;
+}
+.future-2{
+   display: flex;
+   align-items: center;
+   margin-left: 600px;
+   padding: 10px;
+   font-size: 30px;
+   color: white;
+}
+
+
+.section-mae{
+   display:flex;
+   align-items: center;
+   justify-content: center ;
+   padding: 25px;
+   color:rgb(0, 0, 0);
+   background-color: rgb(230, 232, 236);
+}
+
+
+.section-filho{
+   min-height: 300px;
+   padding: 90px;
+   display: flex;
+   align-items: center;
+   justify-content: center ;
+}
+.section-filho h1 {
+   color: rgb(36, 25, 194);
+}
+.section-mae img {
+    max-width:693px;
+   border-radius: 10px;
+   box-shadow: 4px 7px 20px 8px #2f2f2f;
+}
+
+.section-second-son{
+
+   background-color: #008aca;
+   min-height: 300px;
+   padding: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center ;
+   gap: 50px;;
+}
+
+.section-third-son{
+   background-color: #008aca;
+   min-height: 300px;
+   padding: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center ;
+   gap: 50px;;
+}
+
+.section-third-son img{
+   width: 449px;
+    border-radius: 10px;
+    box-shadow: 4px 7px 20px 8px #2f2f2f;
+}
+
+button {
+   color: white;
+   background-color: #00ca7d;
+   border: none;
+   border-radius: 3px;
+   width: 200px;
+   height: 50px;
+   cursor: pointer;
+   font-weight: bold;
+   margin-top: 30px;
+}
+
+.produto{
+    background-color: rgb(230, 232, 236);
+   min-height: 300px;
+   padding: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center ;
+   gap: 50px;;
+}
+.produto img{
+   max-width: 693px;
+   border-radius: 10px;
+   box-shadow: 4px 7px 20px 8px #2f2f2f;
+}
+.Our-product{
+color: white;
+   background-color: #00ca7d;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+   font-weight: bold;
+   text-decoration: none;
+   padding: 9px;
+}
+
+
+.section-second-son img{
+   width: 700px;
+   border-radius: 10px;
+   box-shadow: 4px 7px 20px 8px #2f2f2f;
+}
+.son{
+   margin: 120px;
+   transition: all 0.3s ease-in-out;
+}
+
+.son:hover{
+
+   transform: scale(1.05);
+   transition: all 0.3s ease-in-out;
+
+}
+.material-ferro{
+    height: 200px;   
+    border-radius: 10px; 
+}
+.ferro-2{
+    height: 500px;
+    border-radius: 10px;
+}
+
+.caixa-fundo {
+   position: fixed;
+   top: 0;
+   z-index: -1;
+   
+}
+.mascara {
+   height: 100vh;
+   width: 100vw;
+   background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 10%, rgba(75, 80, 90, 0.7) 40%, rgba(39, 43, 51, 0.99) 70%);
+   position: fixed;
+   top: 0;
+}
+.link-whatsapp img {
+   height: 60px;
+   position: fixed;
+   right: 20px;
+   bottom: 20px;
+   transition: all 1s ease-in-out;
+     
+}
+.link-whatsapp img:hover{
+   transform: scale(1.09); 
+   transition: all 0.3s ease-in-out; 
+
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.mission{
+    width: 39%;
+    height: 43%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.qualidade{
+   width: 60%;
+   margin: 20px;
+}
+.aco-x-ferro2{
+   border-radius: 10px;
+   margin-top: 20px;
+}
+
+.steal{
+width: 600px;
+border-radius: 10px;
+}
+
+.steal-2{
+   width: 400px;
+   border-radius: 10px;
+   margin: 40px;
+}
+
+.box-1  {
+    
+    padding: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255);
+    
+  
+}
+.word{
+   color: rgb(255, 255, 255); 
+}
+
+.email{
+       text-decoration: none;
+}
+
+.contact{
+   padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;  
+}
+
+
+
+
+
+
+
+/* Rodapé */
+footer{
+  background-color: #030407;
+  color: rgb(253, 253, 253);
+  text-align: center;
+  padding: 9px; 
+}
+.copyright{
+   color: rgb(253, 253, 253);
+}
+
+.footer-container ul {
+  list-style: none;
+}
+
+.footer-container ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-container ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.footer-media img {
+  width: 30px;
+  margin: 5px;
+}
+
+.formulario-fale-conosco{
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   gap: 20px;
+   flex-direction: column;
+   position: fixed;
+   top: 30%;
+   left: -300px;
+   padding: 37px;
+   border-radius: 5px;
+   transition: left 1s ease-in-out;
+    
+}
+
+
+.mascara-formulario{
+   visibility: hidden;
+   position: fixed;
+   top: 0;
+   width: 100vw;
+   height: 100vh;
+   background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+   transition: visibility 1s ease-in-out;
+}
+
+
+
+
+
+/* Ajustes para dispositivos menores */
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section-mae, .produto, .contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-view p {
+        max-width: 90%;
+    }
+
+    img {
+        max-width: 90%;
+    }
+}
