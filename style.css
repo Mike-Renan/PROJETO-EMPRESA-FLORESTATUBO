@@ -344,13 +344,3 @@ footer{
    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
    transition: visibility 1s ease-in-out;
 }
-
-
-
-
-
-/* Ajustes para dispositivos menores */
-@media screen and (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        align-items: center;
