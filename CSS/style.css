@@ -2,7 +2,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   font-family: "Ancizar Serif", serif;
+   font-family: 'Roboto', sans-serif;
 }
 body {
    height: 100vh;
@@ -120,6 +120,10 @@ body {
    gap: 50px;;
 }
 
+.section-second-son img{
+max-height: 450px;
+}
+
 .section-third-son{
    background-color: #008aca;
    min-height: 300px;
@@ -135,6 +139,7 @@ body {
     border-radius: 10px;
     box-shadow: 4px 7px 20px 8px #2f2f2f;
 }
+
 
 button {
    color: white;
@@ -312,7 +317,7 @@ footer{
 }
 
 .footer-container ul li a {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -347,11 +352,16 @@ footer{
 }
 
 @media (max-width: 768px) {
+
+   
   .header {
     flex-direction: column;
     gap: 10px;
     padding: 10px;
     position: relative;
+  }
+  .header h1{
+       font-size: 20px;
   }
 
   .header a {
@@ -381,6 +391,21 @@ footer{
     padding: 20px;
     margin: 0;
   }
+  .section-filho p{
+       display: block;
+    font-size: 19px;
+    width: 399px;
+    padding: 32px;
+    margin-left: 13px;
+  }
+  .section-filho ul{
+        display:block;
+        font-size: 19px;
+        width: 396px;
+        padding: 32px;
+        margin-left: 19px;
+  
+}
 
   .section-mae img,
   .produto img,
@@ -408,7 +433,17 @@ footer{
     left: -100%;
   }
   .logo-begin {
-    width: 100%;
-    height: 40%;
+        width: 100%;
+        height: 27%;
+        margin-top: 0;
+    }
+.link-whatsapp img {
+    height: 60px;
+    position: fixed;
+    right: 76px;
+    bottom: 20px;
+    transition: all 1s ease-in-out;}
 }
+.iframe{
+   display: none;
 }
