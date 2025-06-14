@@ -352,6 +352,10 @@ footer{
 }
 
 @media (max-width: 768px) {
+body{
+  
+  height: 100vh;
+ }
 
    
   .header {
@@ -359,6 +363,7 @@ footer{
     gap: 10px;
     padding: 10px;
     position: relative;
+    
   }
   .header h1{
        font-size: 20px;
@@ -390,7 +395,7 @@ footer{
     text-align: center;
     padding: 20px;
     margin: 0;
-    width: 430px;
+    /* width: 430px; */
   }
   .section-filho p{
        display: block;
@@ -412,7 +417,7 @@ footer{
   .produto img,
   .section-third-son img,
   .section-second-son img {
-    width: 90%;
+    width: 78%;
     height: auto;
   }
 
