@@ -340,7 +340,7 @@ footer{
     
 }
 
-
+/* 
 .mascara-formulario{
    visibility: hidden;
    position: fixed;
@@ -349,7 +349,7 @@ footer{
    height: 100vh;
    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
    transition: visibility 1s ease-in-out;
-}
+} */
 
 @media (max-width: 768px) {
 body{
@@ -393,7 +393,7 @@ body{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 20px;
+    padding: 0px;
     margin: 0;
     /* width: 430px; */
   }
@@ -419,6 +419,7 @@ body{
   .section-second-son img {
     width: 78%;
     height: auto;
+    margin: 36px;
   }
 
   .mission,
@@ -444,7 +445,7 @@ body{
     right: 76px;
     bottom: 20px;
     transition: all 1s ease-in-out;
-   position: absolute;
+   position: fixed;
 }
 }
 .iframe{
@@ -459,4 +460,14 @@ body{
     font-weight: bold;
     text-decoration: none;
     padding: 1px;
+}
+.begin-product{
+   color: white;
+   background-color: #00ca7d;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+   font-weight: bold;
+   text-decoration: none;
+   padding: 9px;
 }
