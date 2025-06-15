@@ -434,6 +434,7 @@ body{
   .contact {
     flex-direction: column;
     justify-content: center;
+    text-align: center;
   }
 
   .logo-begin {
@@ -448,10 +449,7 @@ body{
     transition: all 1s ease-in-out;
    position: fixed;
 }
-}
-.iframe{
-   display: none;
-}
+
 .Our-product {
     color: white;
     background-color: #00ca7d;
@@ -474,4 +472,14 @@ body{
 }
 .word{
    color: rgb(255, 255, 255); 
+}
+.box-1 {
+    padding: 40px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255);
+    display: contents;
+}
 }
