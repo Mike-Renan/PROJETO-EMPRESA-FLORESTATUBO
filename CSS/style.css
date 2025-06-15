@@ -351,7 +351,7 @@ footer{
    transition: visibility 1s ease-in-out;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
 body{
   
   height: 100vh;
@@ -400,14 +400,14 @@ body{
   .section-filho p{
        display: block;
     font-size: 19px;
-    width: 399px;
+    max-width: 90%;
     padding: 32px;
     margin-left: 13px;
   }
   .section-filho ul{
         display:block;
         font-size: 19px;
-        width: 396px;
+        max-width: 90%;
         padding: 32px;
         margin-left: 19px;
   
@@ -441,10 +441,11 @@ body{
     }
 .link-whatsapp img {
     height: 60px;
-    position: fixed;
     right: 76px;
     bottom: 20px;
-    transition: all 1s ease-in-out;}
+    transition: all 1s ease-in-out;
+   position: absolute;
+}
 }
 .iframe{
    display: none;
