@@ -4,7 +4,7 @@ Este repositório contém o código-fonte do site da **Floresta Tubos e Perfis d
 
 ## 📌 Sobre o Projeto
 
-O site foi desenvolvido para apresentar os produtos da distribuidora, oferecer informações detalhadas sobre cada item e facilitar o contato com clientes e parceiros. 
+O site foi desenvolvido para apresentar os produtos da distribuidora, oferecer informações e facilitar o contato com clientes e parceiros. 
 
 ## 🚀 Tecnologias Utilizadas
 
